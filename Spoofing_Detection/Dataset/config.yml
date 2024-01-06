@@ -1,0 +1,10 @@
+data/
+    train/
+        live/
+        spoof/
+    val/
+        live/
+        spoof/
+    test/
+        live/
+        spoof/

@@ -7,6 +7,8 @@
 ### Initial Steps
   * Utilization of the MTCNN model for creating a facial border box.
   * Expansion of the detected box by 40% followed by cropping the face.
+    ![image](https://github.com/khoatran02/Liveness_Detection/assets/86609606/1a382fd6-b534-4bef-9a15-40b012d62623)
+
 ### Preprocessing for Training
 * Image Resizing: Adjusted to 224x224 pixels.
 * Color Conversion: Images converted to grayscale.
@@ -15,7 +17,9 @@
 * Flatten the output of the base model.
 * Implement a dropout rate of 0.3 to mitigate overfitting.
 * Include a dense layer with 8 units (ReLU activation).
-*Finalize with a dense layer (Sigmoid activation) for binary classification.
+* Finalize with a dense layer (Sigmoid activation) for binary classification.
+  ![image](https://github.com/khoatran02/Liveness_Detection/assets/86609606/8673c987-206b-4bb2-8790-b80a9b4c93a8)
+
 ## Model Parameters
 * Loss Function: Binary Crossentropy.
 * Optimizer: Adam (Learning Rate: 0.000001, Beta_1: 0.9, Beta_2: 0.999, Epsilon: 1e-07).
